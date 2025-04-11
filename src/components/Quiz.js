@@ -163,12 +163,12 @@ function App() {
       ) : (
         <div>
           <h2>Your Score: {score} / 75</h2>
-          <p>{score <=24  ? "You're unique, a blend of the novel's characters. Your score reflects a balance of perspectives, much like the diverse voices in the Sundarbans. Embrace your individuality!" : "Your score reflects a deep understanding of the themes in 'The Hungry Tide.' You resonate with the characters' struggles and triumphs, embodying their commitment to conservation and community."
-              score <=35  ? "You are like Fokir, a defender of traditional practices and someone who understands the power of nature intuitively."
-              score <=50  ? "You are like Kanai, focused on intellectual pursuits and exploring connections between people and cultures."
-              score <=60  ? "You are like Piya, deeply driven by science and global environmental goals."
-            }</p>
-              "}</p>
+          <p>{score <= 24 ? "You're unique, a blend of the novel's characters. Your score reflects a balance of perspectives, much like the diverse voices in the Sundarbans. Embrace your individuality!" 
+            : score <= 35 ? "You are like Fokir, a defender of traditional practices and someone who understands the power of nature intuitively."
+            : score <= 50 ? "You are like Kanai, focused on intellectual pursuits and exploring connections between people and cultures."
+            : score <= 60 ? "You are like Piya, deeply driven by science and global environmental goals."
+            : "Your score reflects a deep understanding of the themes in 'The Hungry Tide.' You resonate with the characters' struggles and triumphs, embodying their commitment to conservation and community."
+          }</p>
         </div>
       )}
     </div>
