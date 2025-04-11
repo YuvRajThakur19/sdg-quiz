@@ -163,22 +163,12 @@ function App() {
       ) : (
         <div>
           <h2>Your Score: {score} / 75</h2>
-          <p>{score <= 5 ? "You're just getting started! 🌱" :
-               score <= 10 ? "You're on the path! 🌿" :
-                score <= 15 ? "You're making a difference! 🌳": 
-                score <= 20 ? "You're a change-maker! 🌲":
-                score <= 25 ? "You're an advocate! 🌼": 
-                score <= 30 ? "You're a leader! 🌻":
-                score <= 35 ? "You're a role model! 🌺":
-                score <= 40 ? "You're a champion! 🌸":
-                score <= 45 ? "You're an inspiration! 🌷":
-                score <= 50 ? "You're a hero! 🌼":
-                score <= 55 ? "You're a legend! 🌹":
-                score <= 60 ? "You're a superstar! 🌈":
-                score <= 65 ? "You're a visionary! 🌟":
-                score <= 70 ? "You're a trailblazer! 🌠":
-                score <= 75 ? "You're a sustainability warrior! 🌎":  
-               "You're a true SDG Champion! 🌟"}</p>
+          <p>{score <=24  ? "You're unique, a blend of the novel's characters. Your score reflects a balance of perspectives, much like the diverse voices in the Sundarbans. Embrace your individuality!" : "Your score reflects a deep understanding of the themes in 'The Hungry Tide.' You resonate with the characters' struggles and triumphs, embodying their commitment to conservation and community."
+              score <=35  ? "You are like Fokir, a defender of traditional practices and someone who understands the power of nature intuitively."
+              score <=50  ? "You are like Kanai, focused on intellectual pursuits and exploring connections between people and cultures."
+              score <=60  ? "You are like Piya, deeply driven by science and global environmental goals."
+            }</p>
+              "}</p>
         </div>
       )}
     </div>

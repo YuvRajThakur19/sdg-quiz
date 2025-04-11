@@ -5,7 +5,8 @@ import "./Home.css";
 function Home({ onStart }) {
   return (
     <div className="home">
-      <h1>🌍 Sustainable Development Goals (SDGs)</h1>
+      <h1> THE HUNGRY TIDE </h1>
+      <h3>🌍 Sustainable Development Goals (SDGs)</h3>
       <p>
         The Sustainable Development Goals are a universal call to action to end poverty, protect the planet,
         and ensure that all people enjoy peace and prosperity by 2030.The Sustainable Development Goals (SDGs)
