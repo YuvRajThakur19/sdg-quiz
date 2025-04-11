@@ -162,7 +162,7 @@ function App() {
         </div>
       ) : (
         <div>
-          <h2>Your Score: {score} / 75</h2>
+          <h2>Your Score: {score} / 60</h2>
           <p>{score <= 24 ? "You're unique, a blend of the novel's characters. Your score reflects a balance of perspectives, much like the diverse voices in the Sundarbans. Embrace your individuality!" 
             : score <= 35 ? "You are like Fokir, a defender of traditional practices and someone who understands the power of nature intuitively."
             : score <= 50 ? "You are like Kanai, focused on intellectual pursuits and exploring connections between people and cultures."
